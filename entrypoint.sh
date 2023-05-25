@@ -6,7 +6,7 @@ echo $(pwd)
 SCRIPT_FILEPATH=${SCRIPT_FILEPATH:=".github/sendgrid.js"}
 
 echo $(pwd)
-echo Hello
+echo $(ls)
 
 # Execute the script
 $SCRIPT_FILEPATH
